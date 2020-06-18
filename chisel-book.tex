@@ -4041,7 +4041,7 @@ as \codefoot{DecoupledIO} actually extends an abstract class.}
 
 \noindent With the \code{DecoupledIO} interface we define the interface for our FIFOs:
 a \code{FifoIO} with an \code{enq} enqueue and a \code{deq} dequeue port consisting
-of read-valid interfaces.
+of ready-valid interfaces.
  The \code{DecoupledIO} interface is defined from the writer's (producer's) view point.
 Therefore, enqueue port of the FIFO needs to flip the signal directions.
 
